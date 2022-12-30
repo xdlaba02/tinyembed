@@ -15,8 +15,8 @@ If you want to add the library to the build of your project, the best way is to 
     find_package(tinyembed)
 
 command. This will expose two targets:
--- `tinyembed::tinyembedder` target represents the tool for converting binary data into `C` source code.
--- `tinyembed::tinyembed` target represents the library containing macros for retrieving the data from the source code side.
+- `tinyembed::tinyembedder` target represents the tool for converting binary data into `C` source code.
+- `tinyembed::tinyembed` target represents the library containing macros for retrieving the data from the source code side.
 
 The package will also provide the `target_embed_resource` CMake macro for embedding a file to a target.
 
